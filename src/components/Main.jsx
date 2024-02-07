@@ -31,7 +31,7 @@ const Main = () => {
                             <h5 className='text-orange'>Smart Watch</h5>
                             <h3>Fire Boltt</h3>
                             <p className="card-text">
-                                Lorem 
+                                Lorem
                             </p>
                             <button className="bg-orange py-2 px-3">scan</button>
 
@@ -43,25 +43,25 @@ const Main = () => {
                     <div className="col-md-3 ">
                         <div className="circle-content">
                             <div className="circle">
-
-                                <div className="progress blue">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                {/* <div className="progress blue">
                                     <span className="progress-left">
                                         <span className="progress-bar"></span>
                                     </span>
-                                    hjjhjhjh
                                     <span className="progress-right">
                                         <span className="progress-bar"></span>
                                     </span>
-                                </div>
+                                </div> */}
                             </div>
+
                             <div className="btn-group">
-                                <button className='bg-gray py-2 px-5'>
-                                    
+                                <button className='bg-gray py-2 px-5 rounded-5 '>
+                                <span style={{color:"orange"}}>Colories</span> <br/>
                                     1200kcl
                                 </button>
-                                <button className='bg-gray py-2 px-5'>
-                                      
-                                    1200kcl
+                                <button className='bg-gray py-2 px-5 rounded-5 '>
+                                <span style={{color:"orange"}}>Water</span> <br/>
+                                    1.8Ltr
                                 </button>
                             </div>
                         </div>
