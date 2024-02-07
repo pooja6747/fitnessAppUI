@@ -7,10 +7,31 @@
 body {
   background-color: rgba(240, 222, 209, 0.9);
 }
+/* universal css */
+.text-orange{
+  color: orangered;
+  font-size: 10px;
+  
+}
+
+
+.bg-orange{
+  background-color: rgb(215, 112, 9) !important; 
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+.bg-gray{
+  background-color: #FFF4EF;
+  color: rgb(71, 70, 70);
+  border-radius: 20px;
+  border: none;
+}
 
 .header h2 {
   text-transform: capitalize;
-  font-size: 3rem;
+  /* font-size: 3rem; */
   text-align: center;
   margin: 6px !important;
 }
@@ -24,15 +45,11 @@ body {
 
 }
 
-.header .btn-group button {
-  /* width: 240px; */
-  background-color: rgb(215, 112, 9) !important;
-  color: white;
-}
-
-.header .btn-group .btn1 {
-  width: 180px !important;
-  background-color: black !important;
+.watch-img{
+  height: 18rem;
+  right: 0;
+    bottom: -9px ;
+  position: absolute;
 }
 
 .container {
@@ -50,17 +67,19 @@ body {
 .card-body {
   display: flex !important;
   justify-content: space-between !important;
-  background-color: rgb(6, 5, 5) !important;
+  background-color:#2F2F2F;
   flex-direction: row;
+ box-shadow: 10px 10px #FFBFA6;
+ box-shadow: 10px 10px #FFE3D8;
+ border-radius: 25px;
 }
+
 
 .card-text {
   color: grey;
-}
-
-.card-text {
   margin-top: 6rem;
 }
+
 
 .circle-content {
   display: flex;
@@ -229,15 +248,7 @@ body {
   flex-direction: column;
 }
 
-.btn-group button {
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 18px;
-  text-transform: capitalize;
-  background: rgba(219, 127, 127, .4);
-  border: none;
-  font-weight: 600;
-}
+
 
 .title {
   text-transform: capitalize;

@@ -1,5 +1,5 @@
 import React from 'react';
-import watch from '../assets/watch2.png'
+import watch from '../assets/watch.png'
 
 const Main = () => {
     return (
@@ -14,8 +14,8 @@ const Main = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="btn-group">
-                                <button className='py-2 px-3'>Connected Devices</button>
-                                <button className="btn1">Statistics</button>
+                                <button className='py-2 px-3 bg-orange'>Connected Devices</button>
+                                <button className="py-2 px-3 bg-gray">Statistics</button>
                             </div>
                         </div>
                     </div>
@@ -24,20 +24,20 @@ const Main = () => {
             {/* header section end */}
 
             {/* main part start */}
-            <section className="container">
+            <section className="container mt-4">
                 <div className="row">
                     <div className="col-md-4 bg-dark text-light card shadow card-body">
                         <div className="text">
-                            <h5>Smart Watch</h5>
+                            <h5 className='text-orange'>Smart Watch</h5>
                             <h3>Fire Boltt</h3>
                             <p className="card-text">
-                                Lorem ipsum dolor sit amet.
+                                Lorem 
                             </p>
-                            <button className="btn">scan</button>
+                            <button className="bg-orange py-2 px-3">scan</button>
 
                         </div>
                         <div className="img">
-                            <img src={watch} className="img-fluid" alt="..." />
+                            <img src={watch} className="watch-img" alt="..." />
                         </div>
                     </div>
                     <div className="col-md-3 ">
@@ -48,16 +48,19 @@ const Main = () => {
                                     <span className="progress-left">
                                         <span className="progress-bar"></span>
                                     </span>
+                                    hjjhjhjh
                                     <span className="progress-right">
                                         <span className="progress-bar"></span>
                                     </span>
                                 </div>
                             </div>
                             <div className="btn-group">
-                                <button>
+                                <button className='bg-gray py-2 px-5'>
+                                    
                                     1200kcl
                                 </button>
-                                <button>
+                                <button className='bg-gray py-2 px-5'>
+                                      
                                     1200kcl
                                 </button>
                             </div>
