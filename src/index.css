@@ -193,6 +193,6 @@ body {
 }
 
 .progress-bar::before {
-  content: "5233";
+  content: "5,233";
   color: #fff;
 }
